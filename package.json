@@ -1,0 +1,30 @@
+{
+  "name": "observer-pattern-demo",
+  "version": "1.0.0",
+  "description": "A TypeScript project that demonstrates several design patterns with individual scripts for each pattern. The following design patterns are implemented: Singleton, Factory Method, Abstract Factory, Builder, Prototype, Adapter, Decorator, Strategy, Command, Chain of Responsibility, and Observer. Each pattern has its own script located in the 'src' directory. It is important to clarify that these are the 10 most used ones, but there are many more, it is advisable to consult the site https://refactoring.guru.",
+  "main": "index.ts",
+  "scripts": {
+    "adapter": "ts-node src/adapter.ts",
+    "builder": "ts-node src/builder.ts",
+    "command": "ts-node src/command.ts",
+    "decorator": "ts-node src/decorator.ts",
+    "facade": "ts-node src/facade.ts",
+    "factory": "ts-node src/factory.ts",
+    "observer": "ts-node src/observer.ts",
+    "prototype": "ts-node src/prototype.ts",
+    "singleton": "ts-node src/singleton.ts",
+    "strategy": "ts-node src/strategy.ts"
+  },
+  "dependencies": {
+    "typescript": "^5.5.4",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.4"
+  },
+  "author": "John Gallo <jhon.gallo1994@gmail.com>",
+  "license": "MIT"
+}
